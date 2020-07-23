@@ -1,6 +1,6 @@
 <?php
 
-$basedir="/home/web/fuzzwork/htdocs/compression/";
+$basedir="/var/www/html/compression/";
 
 require_once $basedir.'/vendor/autoload.php';
 
@@ -10,5 +10,5 @@ $smarty->setTemplateDir($basedir.'/templates');
 $smarty->setCompileDir($basedir.'/templates_c');
 $smarty->setCacheDir($basedir.'/cache');
 $smarty->setConfigDir($basedir.'/configs');
-$smarty->trusted_dir=array('/home/web/fuzzwork/htdocs/compression/');
+$smarty->trusted_dir=array('/var/www/html/compression/');
 $smarty->setCaching(Smarty::CACHING_LIFETIME_SAVED);

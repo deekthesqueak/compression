@@ -1,8 +1,10 @@
+CREATE DATABASE IF NOT EXISTS `evesupport`;
+USE evesupport;
 CREATE TABLE `compressedOre` (
       `id` bigint(21) DEFAULT NULL,
       `typeid` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-/*!40101 SET character_set_client = @saved_cs_client */;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = utf8 */;
 
 --
 -- Dumping data for table `compressedOre`

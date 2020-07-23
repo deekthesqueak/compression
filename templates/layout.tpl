@@ -13,14 +13,11 @@
 {block name=extrajavascript}{/block}
 
 
-{include file='file:/home/web/fuzzwork/htdocs/bootstrap/header.php' }
 </head>
 <body {block name=bodyattributes}{/block}>
-{include_php file='/home/web/fuzzwork/htdocs/menu/menubootstrap.php' }
 <div class='container'>
 {block name=body}{/block}
 </div>
-{include file='file:/home/web/fuzzwork/htdocs/bootstrap/footer.php' }
 {block name=extraend}{/block}
 {/nocache}
 

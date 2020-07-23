@@ -1,5 +1,5 @@
 <?php
-$basedir="/home/web/fuzzwork/htdocs/compression/";
+$basedir="/var/www/html/compression/";
 
 require_once $basedir.'/includes/db.inc.php';
 require_once($basedir.'/includes/sum.php');
